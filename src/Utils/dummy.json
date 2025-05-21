@@ -1,0 +1,431 @@
+{
+    "amount": 378,
+    "amount_refunded": 0,
+    "auth_type": "THREE_DS",
+    "bank_error_code": "",
+    "bank_error_message": "",
+    "currency": "INR",
+    "customer_email": null,
+    "customer_id": "ti8LRhcLEMvthnoy6UJFnP",
+    "customer_phone": "9494130830",
+    "date_created": "2025-01-09T08:38:26Z",
+    "effective_amount": 378,
+    "emi_details": {
+        "additional_processing_fee_info": null,
+        "bank": null,
+        "conversion_details": null,
+        "emi_type": null,
+        "interest": null,
+        "monthly_payment": null,
+        "principal_amount": null,
+        "processed_by": null,
+        "subvention_info": [],
+        "tenure": null
+    },
+    "gateway_id": 16,
+    "gateway_reference_id": null,
+    "id": "ordeh_68e04f8c5f874178aa7bc52e9254b71e",
+    "last_updated": "2025-01-09T08:38:42Z",
+    "maximum_eligible_refund_amount": 378,
+    "merchant_id": "SG1584",
+    "offers": [],
+    "order_expiry": "2025-01-09T08:53:26Z",
+    "order_id": "mQ8W7DUAgXUvF6vJvoufRe",
+    "payment_gateway_response": {
+        "arn": null,
+        "auth_id_code": "bsb160534fa9a6",
+        "auth_ref_num": null,
+        "created": "2025-01-09T08:38:42Z",
+        "eci": null,
+        "epg_txn_id": "314012562170",
+        "gateway_merchant_id": "3493832",
+        "network_error_code": null,
+        "network_error_message": null,
+        "resp_code": "Success",
+        "resp_message": "Transaction is Successful",
+        "rrn": "bsb160534fa9a6",
+        "txn_id": "SG1584-mQ8W7DUAgXUvF6vJvoufRe-1",
+        "umrn": null
+    },
+    "payment_links": {
+        "iframe": "https://smartgatewayuat.hdfcbank.com/payment-page/order/ordeh_68e04f8c5f874178aa7bc52e9254b71e",
+        "mobile": "https://smartgatewayuat.hdfcbank.com/payment-page/order/ordeh_68e04f8c5f874178aa7bc52e9254b71e",
+        "web": "https://smartgatewayuat.hdfcbank.com/payment-page/order/ordeh_68e04f8c5f874178aa7bc52e9254b71e"
+    },
+    "payment_method": "NB_AVENUETEST",
+    "payment_method_type": "NB",
+    "product_id": "",
+    "refunded": false,
+    "resp_category": null,
+    "resp_code": null,
+    "resp_message": null,
+    "return_url": "http://vaarahimart.com:3000/handleJuspayResponse",
+    "status": "CHARGED",
+    "status_id": 21,
+    "txn_detail": {
+        "created": "2025-01-09T08:38:33Z",
+        "currency": "INR",
+        "error_code": null,
+        "error_message": "",
+        "express_checkout": false,
+        "gateway": "CCAVENUE_V2",
+        "gateway_id": 16,
+        "last_updated": "2025-01-09T08:38:42Z",
+        "metadata": {
+            "payment_channel": "ANDROID"
+        },
+        "net_amount": 378,
+        "offer_deduction_amount": null,
+        "order_id": "mQ8W7DUAgXUvF6vJvoufRe",
+        "redirect": true,
+        "status": "CHARGED",
+        "surcharge_amount": null,
+        "tax_amount": null,
+        "txn_amount": 378,
+        "txn_amount_breakup": [
+            [Object
+            ]
+        ],
+        "txn_flow_type": "NET_BANKING",
+        "txn_id": "SG1584-mQ8W7DUAgXUvF6vJvoufRe-1",
+        "txn_uuid": "mozaeuqDPEizFrCtpY8"
+    },
+    "txn_id": "SG1584-mQ8W7DUAgXUvF6vJvoufRe-1",
+    "txn_uuid": "mozaeuqDPEizFrCtpY8",
+    "udf1": "A Ravi Kumar",
+    "udf10": "",
+    "udf2": "",
+    "udf3": "",
+    "udf4": "",
+    "udf5": "",
+    "udf6": "",
+    "udf7": "",
+    "udf8": "",
+    "udf9": ""
+}
+{
+    "amount": null,
+    "bankErrorCode": "",
+    "bankErrorMessage": "",
+    "card": null,
+    "epgTxnId": null,
+    "error": false,
+    "errorCode": "",
+    "errorMessage": "",
+    "event": "process_result",
+    "gatewayId": 16,
+    "merchantId": "SG1584",
+    "orderId": "aKUhxsjZ6bEWgvjWj3qsPJ",
+    "payload": {
+        "action": "paymentPage",
+        "otherInfo": {
+            "response": null,
+            "status": null
+        },
+        "paymentInstrument": "NB_AVENUETEST",
+        "paymentInstrumentGroup": "NB",
+        "status": "charged",
+        "statusId": 21
+    },
+    "paymentGatewayResponse": null,
+    "paymentMethod": null,
+    "paymentMethodType": null,
+    "paymentWidgetInfo": null,
+    "requestId": "a57b55bdf21e47c29cd994bd2cb26fcf",
+    "returnUrl": "<html><head><title>Juspay</title></head><body><br><br><br><div align='center'><div style='font-size: 32px;'><div id='juspay-logo-container' style='display:none;'><j:showProcessingImg/><br><br><div style='font-size: 16px;'>Redirecting to merchant.</div><p style='font-size: 16px; '>Please do not refresh the page or click the back or close button of your browser.</p></div></div></div><form action='http://vaarahimart.com:3000/handleJuspayResponse' method='POST' id='payment_frm'><input type='hidden' name='status' value='CHARGED' /><input type='hidden' name='status_id' value='21' /><input type='hidden' name='order_id' value='aKUhxsjZ6bEWgvjWj3qsPJ' /><input type='hidden' name='signature' value='1pRhL9iFeuXJbZBQmC9hPplH4WiEKPAuzfmQCOEXdd4%3D' /><input type='hidden' name='signature_algorithm' value='HMAC-SHA256' /></form><script type='text/javascript'> var frm = document.getElementById('payment_frm'); window.setTimeout(function(){ frm.submit()}, 500); </script><script></script></body></html>",
+    "service": "in.juspay.hyperpay",
+    "txnDetail": null,
+    "upi": null
+}
+//cart data
+[
+    {
+        "brand": "Himalaya",
+        "brand_id": "nfpnfXrjA6AR91wxSZD3Xc",
+        "category": "Baby Care",
+        "category_id": "4qrAv5vae9YEVDGU52dXmp",
+        "image": "https://storage.googleapis.com/vaarahimart/products/1734180949215_1.png",
+        "name": "Himalaya",
+        "product_id": "HIMA ",
+        "variants": [
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ]
+        ]
+    },
+    {
+        "brand": "Dettol",
+        "brand_id": "ttaLYyhWjgLpwXMCkikMcQ",
+        "category": "Health & Hygienic",
+        "category_id": "jkDeSpc7FLQfpfVe93kaUH",
+        "image": "https://storage.googleapis.com/vaarahimart/products/1734585967848_Dettol.jpg",
+        "name": "Dettol",
+        "product_id": "DET-HH",
+        "variants": [
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ]
+        ]
+    },
+    {
+        "brand": "Aashirvaad Flour",
+        "brand_id": "t7QLRzVM8iVTjP7ub4TnYW",
+        "category": "Grocery, Oil & Masala",
+        "category_id": "bLuf9QV86FzF36yzRh2cMj",
+        "image": "https://storage.googleapis.com/vaarahimart/products/1734345563928_22.png",
+        "name": "Aashirvaad ",
+        "product_id": "ASV-GOM",
+        "variants": [
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ]
+        ]
+    },
+    {
+        "brand": "Hersheys",
+        "brand_id": "hXVp2KRXTTHsqC9AhdN58i",
+        "category": "Breakfast, Dips, & Spreads",
+        "category_id": "qL1AFxaVx2Ed8W7a4RXJ7r",
+        "image": "https://storage.googleapis.com/vaarahimart/products/1734350726546_2.png",
+        "name": "Hersheys ",
+        "product_id": "HER-BDS",
+        "variants": [
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ]
+        ]
+    },
+    {
+        "brand": "FANTA SOFT DRINK",
+        "brand_id": "j8hJA6VZ6C11taFZgXhr3W",
+        "category": "Hot & Cool Beverages",
+        "category_id": "8mBzcQhygWkDN8LYijsRMx",
+        "image": "https://storage.googleapis.com/vaarahimart/products/1734333566470_4.png",
+        "name": "FANTA SOFT DRINK",
+        "product_id": "FAN-HCB",
+        "variants": [
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ]
+        ]
+    },
+    {
+        "brand": "DAAWAT",
+        "brand_id": "qa8bbm291AEg9ENLhFcAcU",
+        "category": "Rice, Atta, Dal & Sugar",
+        "category_id": "pEd9j2ng6ddAKVUMRE2T8n",
+        "image": "https://storage.googleapis.com/vaarahimart/products/1734588361451_RICE.png",
+        "name": "DAAWAT ",
+        "product_id": "DAA-RADS",
+        "variants": [
+            [Object
+            ],
+            [Object
+            ],
+            [Object
+            ]
+        ]
+    }
+]
+// cart items
+{
+    "10": {
+        "brand": "FANTA SOFT DRINK",
+        "brand_id": "j8hJA6VZ6C11taFZgXhr3W",
+        "category": "Hot & Cool Beverages",
+        "category_id": "8mBzcQhygWkDN8LYijsRMx",
+        "createdAt": "2024-12-16T07:19:30.000Z",
+        "description": "FANTA SOFT DRINK",
+        "id": 10,
+        "image": "https://storage.googleapis.com/vaarahimart/products/1734333566470_4.png",
+        "name": "FANTA SOFT DRINK",
+        "price": 10,
+        "product_discount": "5",
+        "product_id": "FAN-HCB",
+        "purchase": 0,
+        "quantity": 1,
+        "status": "active",
+        "stock": 17,
+        "stockStatus": "inStock",
+        "tax": 5,
+        "tax_value": 0.5,
+        "total_revenue": 30,
+        "totalsales": 3,
+        "units": "ml",
+        "updatedAt": "2025-01-05T10:27:19.000Z",
+        "views": 0,
+        "weight": "25"
+    },
+    "11": {
+        "brand": "FANTA SOFT DRINK",
+        "brand_id": "j8hJA6VZ6C11taFZgXhr3W",
+        "category": "Hot & Cool Beverages",
+        "category_id": "8mBzcQhygWkDN8LYijsRMx",
+        "createdAt": "2024-12-16T07:19:30.000Z",
+        "description": "FANTA SOFT DRINK",
+        "id": 11,
+        "image": "https://storage.googleapis.com/vaarahimart/products/1734333566554_4.png",
+        "name": "FANTA SOFT DRINK",
+        "price": 35,
+        "product_discount": "5",
+        "product_id": "FAN-HCB",
+        "purchase": 0,
+        "quantity": 1,
+        "status": "active",
+        "stock": 17,
+        "stockStatus": "inStock",
+        "tax": 5,
+        "tax_value": 1.75,
+        "total_revenue": 105,
+        "totalsales": 3,
+        "units": "ML",
+        "updatedAt": "2025-01-09T04:54:45.000Z",
+        "views": 0,
+        "weight": "50"
+    },
+    "20": {
+        "brand": "Aashirvaad Flour",
+        "brand_id": "t7QLRzVM8iVTjP7ub4TnYW",
+        "category": "Grocery, Oil & Masala",
+        "category_id": "bLuf9QV86FzF36yzRh2cMj",
+        "id": "20",
+        "image": "https://storage.googleapis.com/vaarahimart/products/1734345563993_22.png",
+        "name": undefined,
+        "price": 70,
+        "product_discount": "4",
+        "product_id": "ASV-GOM",
+        "quantity": 1,
+        "units": "kg",
+        "weight": "2"
+    },
+    "47": {
+        "brand": "Hersheys",
+        "brand_id": "hXVp2KRXTTHsqC9AhdN58i",
+        "category": "Breakfast, Dips, & Spreads",
+        "category_id": "qL1AFxaVx2Ed8W7a4RXJ7r",
+        "id": "47",
+        "image": "https://storage.googleapis.com/vaarahimart/products/1734350726429_2.png",
+        "name": undefined,
+        "price": 39,
+        "product_discount": "5",
+        "product_id": "HER-BDS",
+        "quantity": 1,
+        "units": "ml",
+        "weight": "25"
+    },
+    "55": {
+        "brand": "Dettol",
+        "brand_id": "ttaLYyhWjgLpwXMCkikMcQ",
+        "category": "Health & Hygienic",
+        "category_id": "jkDeSpc7FLQfpfVe93kaUH",
+        "createdAt": "2024-12-19T05:26:11.000Z",
+        "description": "Dettol",
+        "id": 55,
+        "image": "https://storage.googleapis.com/vaarahimart/products/1734585967848_Dettol.jpg",
+        "name": "Dettol",
+        "price": 10,
+        "product_discount": "5",
+        "product_id": "DET-HH",
+        "purchase": 0,
+        "quantity": 1,
+        "status": "active",
+        "stock": 17,
+        "stockStatus": "inStock",
+        "tax": 5,
+        "tax_value": 0.5,
+        "total_revenue": 30,
+        "totalsales": 3,
+        "units": "grm",
+        "updatedAt": "2025-01-15T07:59:29.000Z",
+        "views": 0,
+        "weight": "25"
+    },
+    "56": {
+        "brand": "Dettol",
+        "brand_id": "ttaLYyhWjgLpwXMCkikMcQ",
+        "category": "Health & Hygienic",
+        "category_id": "jkDeSpc7FLQfpfVe93kaUH",
+        "id": "56",
+        "image": "https://storage.googleapis.com/vaarahimart/products/1734585969593_Dettol.jpg",
+        "name": undefined,
+        "price": 44,
+        "product_discount": "5",
+        "product_id": "DET-HH",
+        "quantity": 1,
+        "units": "grm",
+        "weight": "100"
+    },
+    "6": {
+        "brand": "Himalaya",
+        "brand_id": "nfpnfXrjA6AR91wxSZD3Xc",
+        "category": "Baby Care",
+        "category_id": "4qrAv5vae9YEVDGU52dXmp",
+        "id": "6",
+        "image": "https://storage.googleapis.com/vaarahimart/products/1734180949310_1.png",
+        "name": undefined,
+        "price": 300,
+        "product_discount": "5",
+        "product_id": "HIMA ",
+        "quantity": 2,
+        "units": "grm",
+        "weight": "250"
+    }
+}
+//cart product items
+{
+    "allPrice": 45,
+    "brand": "FANTA SOFT DRINK",
+    "brand_id": "j8hJA6VZ6C11taFZgXhr3W",
+    "category": "Hot & Cool Beverages",
+    "category_id": "8mBzcQhygWkDN8LYijsRMx",
+    "image": "https://storage.googleapis.com/vaarahimart/products/1734333566470_4.png",
+    "name": "FANTA SOFT DRINK",
+    "product_id": "FAN-HCB",
+    "variants": [
+        {
+            "count": 1,
+            "id": 10,
+            "pack": "25 ml",
+            "price": 10,
+            "product_discount": "5",
+            "stock": 17,
+            "units": "ml",
+            "weight": "25"
+        },
+        {
+            "count": 1,
+            "id": 11,
+            "pack": "50 ML",
+            "price": 35,
+            "product_discount": "5",
+            "stock": 17,
+            "units": "ML",
+            "weight": "50"
+        },
+        {
+            "count": 0,
+            "id": 12,
+            "pack": "1.5 ML",
+            "price": 75,
+            "product_discount": "5",
+            "stock": 9,
+            "units": "ML",
+            "weight": "1.5"
+        }
+    ]
+}
